@@ -1,0 +1,165 @@
+{
+  "REPLAY_VALIDATION.json": {
+    "status": "passed",
+    "query_windows": 4786,
+    "exact_prediction_replay_arms": 21
+  },
+  "CALIBRATION_REPLAY.json": {
+    "status": "passed",
+    "arms": {
+      "four": {
+        "thresholds": [
+          0.1,
+          0.35,
+          0.2,
+          0.45,
+          0.35,
+          0.2
+        ],
+        "penalties": [
+          0.0,
+          0.5
+        ],
+        "selection_score": {
+          "accuracy": 0.68125,
+          "action_macro_f1": 0.7295514855514856,
+          "six_class_macro_f1": 0.7018107039789888,
+          "background_recall": 0.46774193548387094
+        }
+      },
+      "V1_V2": {
+        "thresholds": [
+          0.15,
+          0.35,
+          0.2,
+          0.5,
+          0.35,
+          0.2
+        ],
+        "penalties": [
+          0.0,
+          0.25
+        ],
+        "selection_score": {
+          "accuracy": 0.69375,
+          "action_macro_f1": 0.6916606492075601,
+          "six_class_macro_f1": 0.6892043871601462,
+          "background_recall": 0.7096774193548387
+        }
+      },
+      "V1_V3": {
+        "thresholds": [
+          0.15,
+          0.45,
+          0.25,
+          0.5,
+          0.35,
+          0.2
+        ],
+        "penalties": [
+          0.0,
+          0.5
+        ],
+        "selection_score": {
+          "accuracy": 0.65,
+          "action_macro_f1": 0.647525271377455,
+          "six_class_macro_f1": 0.646747249957403,
+          "background_recall": 0.7258064516129032
+        }
+      },
+      "V1_V6": {
+        "thresholds": [
+          0.1,
+          0.35,
+          0.2,
+          0.5,
+          0.35,
+          0.2
+        ],
+        "penalties": [
+          0.0,
+          0.25
+        ],
+        "selection_score": {
+          "accuracy": 0.675,
+          "action_macro_f1": 0.7050522862055655,
+          "six_class_macro_f1": 0.6913687084499931,
+          "background_recall": 0.6129032258064516
+        }
+      },
+      "V2_V3": {
+        "thresholds": [
+          0.15,
+          0.35,
+          0.25,
+          0.3,
+          0.35,
+          0.2
+        ],
+        "penalties": [
+          0.0,
+          0.5
+        ],
+        "selection_score": {
+          "accuracy": 0.66875,
+          "action_macro_f1": 0.6448346560846561,
+          "six_class_macro_f1": 0.6455493479068041,
+          "background_recall": 0.5967741935483871
+        }
+      },
+      "V2_V6": {
+        "thresholds": [
+          0.1,
+          0.3,
+          0.2,
+          0.5,
+          0.5,
+          0.2
+        ],
+        "penalties": [
+          0.0,
+          0.25
+        ],
+        "selection_score": {
+          "accuracy": 0.6875,
+          "action_macro_f1": 0.749352068696331,
+          "six_class_macro_f1": 0.7241751569620422,
+          "background_recall": 0.5645161290322581
+        }
+      },
+      "V3_V6": {
+        "thresholds": [
+          0.1,
+          0.35,
+          0.25,
+          0.4,
+          0.4,
+          0.2
+        ],
+        "penalties": [
+          0.0,
+          0.5
+        ],
+        "selection_score": {
+          "accuracy": 0.6375,
+          "action_macro_f1": 0.678174688057041,
+          "six_class_macro_f1": 0.6588955733808675,
+          "background_recall": 0.5806451612903226
+        }
+      }
+    }
+  },
+  "PROMPT_VALIDATION.json": {
+    "status": "passed",
+    "banks": 4,
+    "rendered_prompt_matches_original": true,
+    "query_images_per_forward": 7
+  },
+  "INPUT_REBUILD_VALIDATION.json": {
+    "status": "passed",
+    "support_sheets_rebuilt_and_sha256_verified": 320,
+    "query_sheets_rebuilt_and_sha256_verified": 4786,
+    "references": 24,
+    "fresh_gpu_inference_executed_for_export": false
+  }
+}

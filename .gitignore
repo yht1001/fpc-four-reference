@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv*/
+sheets/
+output/
+models/
+*.zip

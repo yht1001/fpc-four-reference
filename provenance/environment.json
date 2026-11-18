@@ -1,0 +1,12 @@
+{
+  "inference_environment_checked_at_export": {
+    "numpy": "2.3.5",
+    "Pillow": "12.3.0",
+    "torch": "2.13.0",
+    "transformers": "5.14.1",
+    "vllm": "0.31.0"
+  },
+  "archived_vllm_version_from_logs": "0.31.0",
+  "upstream_startlux_commit": "83fe6c7d61a687a6e17f118b4f7d8f429f5d3a01",
+  "note": "Current environment versions are recorded at export. Historical package versions beyond the logged vLLM version were not fully captured."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "reference_frames": 72,
+  "support_windows": 320,
+  "query_windows": 799,
+  "calibration_exact_replay": "passed",
+  "source_frame_paths_jpeg_and_rgb_overlap": 0,
+  "independent_confusion_and_temporal_metrics": "passed",
+  "query_gt_used_only_after_prediction_freeze": true
+}

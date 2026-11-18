@@ -1,0 +1,19 @@
+{
+  "state": "Query evidence is one five-panel temporal sheet: <image>\nThe first two panels are low-rate context from the preceding two seconds.\nThe last three panels densely sample the target interval: the most recent 0.5 seconds.\nClassify only the last three target panels; use the first two panels only as context.\nCandidate visual references; every sheet is ordered early | middle | late:\nA01: <image>\nA02: <image>\nA03: <image>\nA04: <image>\nA05: <image>\nBG: <image>",
+  "questions": {
+    "action": {
+      "type": "choice",
+      "instructions": "Which candidate best matches the action occurring in the target interval, the most recent 0.5 seconds represented by the last three query panels? The first two panels are earlier context only. Compare the target with the candidate references and option descriptions.",
+      "criteria": {
+        "A01": "The action in the last three query panels matches candidate A01.",
+        "A02": "The action in the last three query panels matches candidate A02.",
+        "A03": "The action in the last three query panels matches candidate A03.",
+        "A04": "The action in the last three query panels matches candidate A04.",
+        "A05": "The action in the last three query panels matches candidate A05.",
+        "BG": "The action in the last three query panels matches candidate BG."
+      }
+    }
+  },
+  "think_mode": "never",
+  "none_check": false
+}

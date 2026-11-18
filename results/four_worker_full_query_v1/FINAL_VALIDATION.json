@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "query_videos": 6,
+  "query_windows": 4786,
+  "overlapping_windows_removed": 0,
+  "source_frames_scanned": 96254,
+  "reused_v4_predictions_exact": true,
+  "frozen_parameters_sha256": "39bc8010f68ef99f319c1f782345a0653b346ddf63cf688ee3aec93b2ea0ff30",
+  "query_gt_used_only_after_prediction_freeze": true
+}
